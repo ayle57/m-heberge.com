@@ -30,4 +30,9 @@
 
 ###> identifier.sqlite ###
 /**/identifier.sqlite
-###> identifier.sqlite ###
+###< identifier.sqlite ###
+
+###> docs ###
+/docs/cahier-des-charges.md
+/docs/todos.md
+###< docs ###
