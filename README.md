@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+# M-Heberge.com Front-End
+
+This is the official repository and code base for the M-Heberge.com front-end. This project is built using React.js and Next.js.
 
 ## Getting Started
 
-First, run the development server:
+To get started, clone the repository and run the following commands:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+or
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm install
+pnpm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Table of Contents
+[Getting Started](#getting-started)
+[Table of Contents](#table-of-contents)
+[Contributing](#contributing)
+[License](#license)
+[Structure](#structure)
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+If you would like to contribute to this project, please fork the repository and submit a pull request. We will review your changes and merge them if they are deemed appropriate.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Actual Contributors
+- Théo | Newlance (discord: pro_theo)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
+This project is licensed under the MIT License - see the LICENSE root file for details.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Structure
+- public : Contains all the public files (images, etc.)
+- src : Contains all the source code
+  - ...
+- node_modules : Contains all the dependencies
